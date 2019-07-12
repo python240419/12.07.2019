@@ -27,3 +27,10 @@ with open('c:/itay/hello.txt') as f1:
     for line in f1:
         print(line, end="")
     # because of the with --> here the open will be closed
+
+with open('c:/itay/new.txt', 'w') as f1:
+    f1.write("Hello new file!!")
+    
+# create a file with your name
+# create a file and copy the previous file into it and add your name
+#   ate the end

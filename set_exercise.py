@@ -6,7 +6,7 @@ a = {}
 print(type(a)) # <class 'dict'>
 a = {5}
 print(type(a)) # <class 'set'>
-a = {}
+a = set()
 a.add(1)
 print(a) # {1}
 a.add(1)

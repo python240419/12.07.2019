@@ -30,7 +30,14 @@ with open('c:/itay/hello.txt') as f1:
 
 with open('c:/itay/new.txt', 'w') as f1:
     f1.write("Hello new file!!")
-    
+
 # create a file with your name
 # create a file and copy the previous file into it and add your name
-#   ate the end
+#   at the end
+
+with open('c:/itay/new2.txt', 'w') as f1:
+    for line in open('c:/itay/hello.txt'):
+        f1.write(line)
+
+with open('c:/itay/new2.txt', 'a') as f1:
+    f1.write("\nitay")

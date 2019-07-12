@@ -59,10 +59,10 @@ def mergeDictionary(d1, d2):
         if result.get(k) == None:
             result[ k ] = d2[ k ]
         else:
-            result[k] = [ d1[ k ] , d2 [ k ]]
+            result[k] = [ d1[ k ] , d2 [ k ] ]
     return result
 
-print(mergeDictionary({1:1, 3:3}, {2:2, 3:4}))
+print(mergeDictionary( {1:1, 3:3}, {2:2, 3:4} ))
 
 '''
 כתוב תוכנית אשר קולטת מהמשתמש שני ערכים: מס' תעודת זהות + שם מלא. תעודת הזהות

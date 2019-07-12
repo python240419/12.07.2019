@@ -26,4 +26,4 @@ f1.close()
 with open('c:/itay/hello.txt') as f1:
     for line in f1:
         print(line, end="")
-    # because with -- here the open will be closed
+    # because of the with --> here the open will be closed

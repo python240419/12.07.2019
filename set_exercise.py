@@ -25,4 +25,22 @@ print(set(list1)) # {1, 4, 5, 6, 7, -3}
 # write a loop to display how many times
 # each letter repeats itself
 
-# hint : use list, set, count
+lettersDict = { 1: 'o', 2: 't', 3: 't', 4: 'f', 5: 'f', 6: 's', 7: 's', 8: 'e', 9: 'n', 10: 't'}
+
+listOfvalues = list(lettersDict.values()) # ['o', 't', 't', 'f', 'f', 's', 's', 'e', 'n']
+print(listOfvalues)
+for value in sorted(set(listOfvalues)):
+    print (f' \'{value}\' : { listOfvalues.count(value) } times')
+
+
+
+
+
+
+
+
+
+
+
+
+
